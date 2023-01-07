@@ -59,10 +59,6 @@ class Bot(commands.Bot):
             )
             await webhook.send(f"Screenshot from {ctx.author.name}:", file=tmp)
             await ctx.send(f"{ctx.author.name}'s screenshot has been sent!")
-            # await ctx.send(resp)
-            # discord_re = await session.post("https://discord.com/api/webhooks/931496554462855198/NaHuG4ybtglHPCxAuZccF6RF7h5-4ZU-pQXutffJP5f6i7ZXaD5S4e6_yYw1focFGs6J",
-            #                     json={'content': resp['img']},)
-            # resp = await discord_re.text()
 
 
 bot = Bot()

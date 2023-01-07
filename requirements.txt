@@ -1,0 +1,5 @@
+discord.py
+simpleobsws
+twitchio
+aiohttp
+python-dotenv
