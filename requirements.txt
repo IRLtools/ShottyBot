@@ -3,3 +3,4 @@ simpleobsws
 twitchio
 aiohttp
 python-dotenv
+customtkinter
