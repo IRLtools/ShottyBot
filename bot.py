@@ -25,7 +25,7 @@ class Bot(commands.Bot):
             token=sys.argv[5],
             prefix="!",
             initial_channels=[sys.argv[4]],
-            nick="YAB",
+            nick="ShottyBot",
         )
 
     async def identify_obs(self):

@@ -193,7 +193,7 @@ class App(ct.CTk):
         if not all(vals):
             self.info_label.configure(text="A field is missing!", text_color="red")
             return
-        args = shlex.join(["bot.exe", *vals])
+        args = shlex.join(["dist.exe", *vals])
         self.insert_to_console("Starting Bot...")
         self.bot = subprocess.Popen(
             args,
